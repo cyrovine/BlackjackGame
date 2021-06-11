@@ -9,7 +9,7 @@ using namespace std;
 
 PokerNumber::PokerNumber()
 {
-    for (int i = 0; i < 52; i++)             //|ç”¨å»ºæ§‹å‡½å¼åˆå§‹åŒ–
+    for (int i = 0; i < 52; i++)             //|¥Î«Øºc¨ç¦¡ªì©l¤Æ
     {
         switch (i % 13)                     //|
         {                                   //|
@@ -78,7 +78,7 @@ PokerNumber::PokerNumber()
             pokerNumber[i] = "K";           //|
             break;                          //|
         }                                   //|
-        }                                       //|forçµæŸ
+        }                                       //|forµ²§ô
     }
 }
 string PokerNumber::getPokerNumber(int var)
@@ -91,5 +91,5 @@ string PokerNumber::tostring(int var)
 
     Number << setw(3) << pokerNumber[var] << " of " << getPokerSuits(var) << endl;
 
-    return Number.str();                     //|ç”¨tostringå°å‡º
+    return Number.str();                     //|¥Îtostring¦L¥X
 }

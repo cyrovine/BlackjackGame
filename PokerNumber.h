@@ -12,6 +12,6 @@ public:
 	string getPokerNumber(int var);
 	string tostring(int var);
 private:
-	string pokerNumber[52]; //æ’²å…‹å
+	string pokerNumber[52]; //¼³§J¦W
 };
 #endif

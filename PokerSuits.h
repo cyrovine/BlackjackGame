@@ -10,6 +10,6 @@ public:
 	PokerSuits();
 	string getPokerSuits(int var);
 private:
-	string pokerSuits[52]; //æ’²å…‹èŠ±è‰²
+	string pokerSuits[52]; //¼³§Jªá¦â
 };
 #endif

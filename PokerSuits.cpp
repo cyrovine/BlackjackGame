@@ -8,7 +8,7 @@ using namespace std;
 
 PokerSuits::PokerSuits()
 {
-    for (int i = 0; i < 52; i++)            //|ç”¨å»ºæ§‹å‡½å¼åˆå§‹åŒ–
+    for (int i = 0; i < 52; i++)            //|¥Î«Øºc¨ç¦¡ªì©l¤Æ
     {                                       //|
         if (i < 13)                         //|
             pokerSuits[i] = "Clubs";        //|
@@ -18,7 +18,7 @@ PokerSuits::PokerSuits()
             pokerSuits[i] = "Hearts";       //|
         else if (i >= 39)                   //|
             pokerSuits[i] = "Spades";       //|
-    }                                       //|forçµæŸ
+    }                                       //|forµ²§ô
 }
 string PokerSuits::getPokerSuits(int var)
 {
